@@ -49,14 +49,6 @@ namespace itw_training_dotnet7.Controllers
             // return Ok(await _characterService.UpdateCharacter(updatedCharacter));
         }
 
-        //          DENEME AMAÇLI, ÇALIŞMADI
-        // [HttpPut]
-        // public async Task<ActionResult<ServiceResponse<List<GetCharacterDTO>>>> UpdateCharacterStrength(UpdateCharacterDTO updatedCharacter) {
-            
-        //     // characters.Add(newCharacter);
-        //     return Ok(await _characterService.UpdateCharacter(updatedCharacter));
-        // }
-
         [HttpDelete("{id}")]
         public async Task<ActionResult<ServiceResponse<GetCharacterDTO>>> DeleteCharacter(int id)
         {
