@@ -14,8 +14,6 @@ namespace itw_training_dotnet7.Services.CharacterService
         Task<ServiceResponse<GetCharacterDTO>> UpdateCharacter(UpdateCharacterDTO updatedCharacter);
         Task<ServiceResponse<List<GetCharacterDTO>>> DeleteCharacter(int id);
 
-        //          DENEME AMAÇLI, ÇALIŞMADI
-        // Task<ServiceResponse<GetCharacterDTO>> UpdateCharacterStrength(UpdateCharacterDTO updatedCharacter);
         
     }
 }
